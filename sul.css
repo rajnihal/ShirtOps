@@ -1,0 +1,170 @@
+nav {
+    position: relative; /* Fixed positioning to keep the navigation bar fixed at the top */
+    top: 0; /* Position the navigation bar at the top of the viewport */
+    left: 0; /* Position the navigation bar on the left */
+    width: 100%; /* Make the navigation bar span the entire width */
+    z-index: 1000; /* Set a high z-index to ensure the navigation bar is on top of other elements */
+    color: white;
+    padding: 10px;
+    text-align: center;
+    background-color: transparent; /* Make the background color transparent */
+    background-image: url('background_image.jpg'); /* Add your background image path */
+    background-size: cover; /* Cover the entire background with the image */
+    background-position: center; /* Center the background image */
+    opacity: 0.5; /* Adjust the opacity to make it semi-transparent */
+}
+
+.content {
+    margin-top: 50px; /* Adjust margin to prevent content from overlapping with navigation bar */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 15px;
+    margin: 0 10px;
+}
+.shop1{
+    padding-top: 200px;
+}
+.btn123{
+    background-color: #45a049;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-left: 500px;
+    border-radius: 5px;
+    
+    
+}
+
+
+
+/* CSS styles for images and dropdowns */
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: white;
+    margin-top: 20px;
+}
+.image-container {
+    margin: 10px;
+}
+select {
+    margin: 10px;
+}
+
+/* CSS styles for tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+
+/* CSS styles for add to cart button */
+.add-to-cart-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.add-to-cart-btn:hover {
+    background-color: #45a049;
+}
+
+body {
+    height:100vh;
+    background: url(background.jpg);
+    background-size:cover;
+    position:relative;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.image-container {
+    text-align: center;
+    margin: 0 20px;
+}
+
+.image-container img {
+    width: 200px; /* Adjust as needed */
+    height: 200px; /* Adjust as needed */
+}
+
+.image-container select {
+    margin-top: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.remove-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.shop1 {
+    margin-top: 80px;
+    text-align: center;
+}
+
+
